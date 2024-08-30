@@ -1,0 +1,31 @@
+{
+  "name": "tdd-react",
+  "version": "1.0.0",
+  "description": "This a project to learn TDD with React",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^16.0.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "happy-dom": "^15.7.0",
+    "standard": "^17.1.0",
+    "vitest": "^2.0.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "standard-jsx"
+    ]
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
